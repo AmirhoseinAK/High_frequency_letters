@@ -24,10 +24,10 @@ for i in range(len(b)):
     if b[i] > c:
         c = b[i]
         d = i
-
+number = b.count(c)
 # Running the program
 
 if c > 1:
     print(f"Most frequent letter is {alphabet[d]} and {c} times")
-if c == 1:
+if c == 1 or number >= 2:
     print("There is no most frequent letter!")
