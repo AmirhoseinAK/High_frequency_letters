@@ -17,8 +17,9 @@ for i in range(len(alphabet)):
 
 # Finding the greatest
 
-c = 0
+c = -1
 d = 0
+e = []
 for i in range(len(b)):
     if b[i] > c:
         c = b[i]
@@ -26,5 +27,7 @@ for i in range(len(b)):
 
 # Running the program
 
-print(f"Most frequent letter is {alphabet[d]} and {c} times")
-
+if c > 1:
+    print(f"Most frequent letter is {alphabet[d]} and {c} times")
+if c == 1:
+    print("There is no most frequent letter!")
