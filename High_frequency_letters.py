@@ -26,5 +26,5 @@ for i in range(len(b)):
 
 # Running the program
 
-print(f"Most frequent letter is {user_input[d]} and {c} times")
+print(f"Most frequent letter is {alphabet[d]} and {c} times")
 
